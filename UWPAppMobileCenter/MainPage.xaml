@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="UWPAppMobileCenter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPAppMobileCenter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="output" Grid.Row="0" Margin="5,5,5,5" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.VerticalScrollBarVisibility="Visible"></TextBox>
+        <StackPanel Grid.Row="1" Margin="5,5,5,5" HorizontalAlignment="Stretch">
+            <Button x:Name="analytics25" Margin="0,5,0,0" HorizontalAlignment="Stretch">Analytics-25</Button>
+            <Button x:Name="analytics27" Margin="0,5,0,0" HorizontalAlignment="Stretch">Analytics-27</Button>
+        </StackPanel>
+    </Grid>
+</Page>
